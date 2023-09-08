@@ -1,0 +1,114 @@
+.books {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2% 10%;
+  margin-bottom: 40px;
+}
+
+.poke-card {
+  background-color: #eee;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.poke-img {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: auto;
+}
+
+.poke-img img {
+  margin-top: 10px;
+  max-width: 50%;
+}
+
+.poke-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.poke-name {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.poke-likes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.poke-likes i {
+  color: red;
+  transition: transform 0.2s ease-in-out;
+}
+
+.poke-likes i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.comment-button {
+  background: rgba(96, 165, 250, 1.9);
+  padding: 0.5rem;
+  border: none;
+  color: rgb(53, 53, 53);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  box-shadow: 0 1px 15px rgba(100, 100, 100, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.comment-button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 768px) {
+  .pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2% 3%;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2% 3%;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  .pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2% 3%;
+  }
+}
+
+@media only screen and (min-width: 1090px) {
+  .pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2% 3%;
+  }
+}
+
+@media only screen and (min-width: 1235px) {
+  .pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 2% 10%;
+  }
+}

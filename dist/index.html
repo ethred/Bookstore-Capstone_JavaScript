@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ce85233928.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Book App</title>
+  <script defer src="index.bundle.js"></script></head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h2>BookStore</h2>
+        </div>
+        <div class="navmenu">
+          <ul>
+
+              <li class="nav-item active">
+                <a class="poke-count" href="#">Pokes</a>
+              </li>
+            <li><a href="#">Romance</a></li>
+            <li><a href="#">Fantaciy</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <div class="books"></div>
+
+    <div class="pop-up">
+      <div class="pop-top"></div>
+      <button class="close-pop">&times;</button>
+      <h3 class="pop-title"></h3>
+      <div class="pop-desc">
+        <span class="desc-1"></span>
+        <span class="desc-2"></span>
+      </div>
+      <div class="pop-comments">
+        <h4 class="display-comments">Comments</h4>
+        <ul class="comments-list"></ul>
+      </div>
+      <form class="add-comment">
+        <h3 class="form-title">Add comment</h3>
+        <input
+          id="comment-input"
+          class="comment-input"
+          type="text"
+          placeholder="Your name"
+          required
+        />
+        <textarea
+          name="comment"
+          id="comment-textarea"
+          class="comment-textarea"
+          placeholder="Your insights"
+          required
+        ></textarea>
+        <button type="submit" class="add-button">comment</button>
+      </form>
+    </div>
+    <div id="shadow"></div>
+
+    <footer>
+      <h2>Created by Microverse Under ICC Licence</h2>
+    </footer>
+  </body>
+</html>

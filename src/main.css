@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+@media only screen and (max-width: 960px) {
+  .nav-item a {
+    font-size: 20px;
+  }
+
+  #poke-logo {
+    width: 52%;
+    max-width: 55%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #poke-logo {
+    width: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  #poke-logo {
+    width: 80%;
+    max-width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2% 10%;
+  }
+}
